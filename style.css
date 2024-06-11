@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#numberDisplay {
+    font-size: 36px;
+    margin: 20px 0;
+    color: green;
+    font-weight: bold;
+}
+
+#numberDisplay .highlight {
+    font-size: 100px;
+    color: green;
+    font-weight: bold;
+}
+
+#drawnNumbers {
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#drawnNumbers div {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+    width: 50px;
+    text-align: center;
+}
+
+#drawnNumbers .previous {
+    color: red;
+}
+
+#drawnNumbers .recent {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}

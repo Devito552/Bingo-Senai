@@ -1,0 +1,23 @@
+{
+  "name": "bingo",
+  "version": "1.0.0",
+  "description": "Projeto de Bingo para escola Senai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilherme Devito",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devito552/Bingo-Senai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Devito552/Bingo-Senai/issues"
+  },
+  "homepage": "https://github.com/Devito552/Bingo-Senai#readme"
+}
